@@ -228,7 +228,7 @@ function LoginPage() {
 
   const handleCreateUser = async () => {
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/user/create/', {
+      const response = await fetch('http://18.223.122.141:8000/api/user/create/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
